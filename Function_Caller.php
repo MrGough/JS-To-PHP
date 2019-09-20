@@ -5,7 +5,7 @@
 	$Args = $_POST['Args'];
 	
 	# HANDLE NO FUNCTION PASSED
-	if ( !isset($Function) ){ return false; }
+	if ( !isset($Function) ){ exit(); }
 	
 	# SET UP CLASS INSTANCE
 	require_once 'class.php';
